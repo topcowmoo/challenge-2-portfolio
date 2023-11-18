@@ -1,0 +1,20 @@
+
+.nav {
+    width: 100%;
+    background-color: deepskyblue;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 186px;
+    vertical-align: text-top;
+}
+
+.nav-links {
+    list-style: none;
+}
