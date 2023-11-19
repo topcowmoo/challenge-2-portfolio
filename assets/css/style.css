@@ -1,8 +1,13 @@
+:root {
+    --outer-space: #b1c7cd;
+    
+}
+
 html {
     box-sizing: border-box;
     }
 
-nav {
+header {
     width: 100%;
     background-color: deepskyblue;
     padding-left: 30px;
