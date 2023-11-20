@@ -1,11 +1,4 @@
-/* :root {
-    --outer-space: #a0b4b4;
-    --light-yellow: #fff666;
-    --softblack: #353839;
-    --navyblue: #000080;
-    }
-
-::selection {
+/* ::selection {
     background-color: var(--light-yellow);
     color: var(--outer-space);
 }
@@ -177,8 +170,14 @@ footer {
         flex: 0 0 33.333%;
         max-width: 33.333%;
     }
-} */
+} */ */
 
+:root {
+    --outer-space: #a0b4b4;
+    --light-yellow: #fff666;
+    --softblack: #353839;
+    --navyblue: #000080;
+}
 
 .developer-info {
     display: flex;
