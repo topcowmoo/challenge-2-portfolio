@@ -1,10 +1,11 @@
-/* Universal selector */
-*{
+/* Reset styles */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Base styles */
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -17,11 +18,11 @@ body {
 
 /* Header styling */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #3399ff;
-    padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3399ff;
+  padding: 5rem;
 }
 
 header h1 {
@@ -30,39 +31,39 @@ header h1 {
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 nav ul li {
-    margin-right: 1.7rem;
+  margin-right: 1.7rem;
 }
-  
+
 nav ul li a {
-    text-decoration: none;
-    font-size: 1.7rem;
-    color: black;
-  }
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: black;
+}
 
 nav ul li a:hover {
   color: #fff;
 }
-/* End of Header styles */
 
+/* Section styling */
 section {
-   padding: 2rem;
+  padding: 2rem;
 }
 
 /* Hero styling */
 .hero {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(128, 128, 128, 0.661);
-    background-size: cover;
-    text-align: left;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.661);
+  background-size: cover;
+  text-align: left;
+}
 
 .hero h2 {
   font-size: 4rem;
@@ -85,18 +86,31 @@ section {
 }
 
 .about h3 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 800;
-  color: #3399ff;
-  line-height: 1.4rem;
+  color: black;
+  line-height: 1.9rem;
 }
 
 .about p {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #222326;
 }
 
 /* Work section properties */
+.work-section {
+  background-color: rgba(103, 108, 108, 0.371);
+  padding: 6rem;
+}
+
+.work-content {
+  padding: 2rem;
+}
+
+.work-title {
+  font-size: 2rem;
+  line-height: 3rem;
+}
 
 .card-container {
   display: flex;
@@ -105,94 +119,53 @@ section {
   flex-wrap: wrap;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .card {
   margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: calc(33.33% - 20px);
 }
 
-.card-body {
-  text-align: center;
+.card img {
+  max-width: 100%;
+  width: 100%;
 }
 
-.card-body img {
-  max-width: 100%
 }
 
-.work-title {
-  font-size: 2.7rem;
-  line-height: 3rem;
-}
-
-.card-column {
+.card-row {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.card first-card {
-  height: auto;
-  width: 50%;
-}
-
-.card-body2 img {
-height: auto;
-width: 35%;
-}
-
-.code-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  min-height: 100%;
-  padding: 2cqb;
-  max-width: 375px;
-  overflow: hidden;
-}
-
-.code-text {
-font-size: 1.5rem;
-}
-
-.work-header {
-padding: 3rem;
-line-height: 19rem;
-justify-content: center;
-}
-
-.work-section {
-  background-color: rgba(103, 108, 108, 0.371);
-  padding: 6rem;
 }
 
 .card-header {
   justify-content: center;
+  font-size: 1.5rem;
 }
 
-@media screen and (max-width: 480px) {
-  .hero h2 {
-    font-size: 2.5rem;
-  }
+.code-text {
+  font-size: 1.5rem;
+}
 
-  .hero img {
-    width: 12rem;
-    height: 12rem;
-    margin-bottom: 1.5rem;
-    margin-top: 0.5rem;
-  }
+/* Footer section */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3399ff;
+  padding: 5rem;
+}
 
-  .about h3 {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .about p {
-    font-size: 1.6rem;
-  }
-
-  .work-title {
-    font-size: 2
+footer h4 {
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 /* Media Queries */
@@ -276,6 +249,6 @@ justify-content: center;
   }
 
   .work-title {
-    font-size: 2
+    font-size: 2;
   }
-
+}
