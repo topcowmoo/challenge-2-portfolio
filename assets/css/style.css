@@ -1,4 +1,4 @@
-/* Reset styles */
+/* Universal Selectors */
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +30,7 @@ header h1 {
   cursor: pointer;
 }
 
+/* Nav styling */
 nav ul {
   display: flex;
   list-style: none;
@@ -119,12 +120,6 @@ section {
   flex-wrap: wrap;
 }
 
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .card {
   margin: 10px;
   display: flex;
@@ -136,11 +131,6 @@ section {
 .card img {
   max-width: 100%;
   width: 100%;
-}
-
-.card-row {
-  display: flex;
-  flex-direction: column;
 }
 
 .card-header {
@@ -152,15 +142,6 @@ section {
   font-size: 1.5rem;
 }
 
-.card.full-width-card {
-  width: 100%;
-}
-
-.card.run-buddy-card,
-.card.calculator-card {
-  width: calc(50% - 20px);
-}
-
 .card-row {
   display: flex;
   flex-wrap: wrap;
@@ -168,18 +149,11 @@ section {
   flex-direction: row;
 }
 
-.card {
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: calc(33.33% - 20px);
-}
-
 .card img {
   max-width: 100%;
   width: 100%;
 }
+/* End of section styling */
 
 /* Footer section */
 footer {
@@ -194,7 +168,6 @@ footer h4 {
   font-size: 2rem;
   cursor: pointer;
 }
-
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
