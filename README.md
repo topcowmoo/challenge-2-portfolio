@@ -31,7 +31,7 @@ Now you have successfully cloned the project repository to your local machine.
 
 ## Screenshots
 
-![image] (https://github.com/topcowmoo/challenge-2-portfolio/assets/images/screenshots/screen1.png)
+![image] (assets/images/screenshots/screen1.png)
 
 
 ## Deployed Application
