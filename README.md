@@ -31,20 +31,19 @@ Now you have successfully cloned the project repository to your local machine.
 
 ## Screenshots
 
-![image] https://github.com/topcowmoo/challenge-2-portfolio/issues/new
+![image] (https://github.com/topcowmoo/challenge-2-portfolio/issues/new)
 
 
 ## Deployed Application
 
 Check out the deployed version of the application here:
 
-https://topcowmoo.github.io/challenge-2-portfolio/
+(https://topcowmoo.github.io/challenge-2-portfolio/)
 
 
 ## Credits
 
-https://www.w3schools.com/css/css3_flexbox.asp
+(https://www.w3schools.com/css/css3_flexbox.asp)
 
-https://www.youtube.com/watch?v=JJSoEo8JSnc
-
+(https://www.youtube.com/watch?v=JJSoEo8JSnc)
 ---
