@@ -6,11 +6,11 @@
 }
 
 html {
-    height: 62.5%
+    height: 62.5%;
 }
 
 body {
-    min-height: 100%
+    min-height: 100%;
     line-height: 1;
     font-family: sans-serif;
 }
